@@ -1,0 +1,13 @@
+```gitignore
+# .gitignore
+# Ignoriere temporäre Dateien und Editor-Dateien
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

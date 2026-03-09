@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Archiv – Mein Archiv</title>
+  <title>Lesbian*BAR_CHIVES</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Mein Archiv</h1>
+    <h1>BAR_CHIVES</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="archiv.html" class="active">Beiträge</a></li>
+        <li><a href="archiv.html" class="active">Archiv</a></li>
         <li><a href="upcoming.html">Upcoming</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -20,16 +21,27 @@
   </header>
 
   <main>
-    <section id="posts-list">
-      <h2>Alle Beiträge im Archiv</h2>
-      <div id="post-container"></div>
+    <section id="archiv-list">
+      <h2>Archiv: Alle Artikel</h2>
+      <ul class="article-list">
+        <li>
+          <a href="archiv/paper.html">
+            📄 Paper: „Ein cooles sapphic paper wird diskutiert.“
+          </a>
+          <p class="desc">Ein wissenschaftliches Papier über queer history.</p>
+        </li>
+        <li>
+          <a href="archiv/video.html">
+            🎥 Video: „Queerer Kurzfilm“
+          </a>
+          <p class="desc">Dies ist eine Filmbesprechung.</p>
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <p>Erstellt mit ❤️ auf GitHub Pages | Lesbian*Bar</a></p>
+    <p>Erstellt mit ❤️ auf GitHub Pages | Lesbian*Bar</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     // Lade die Liste der Markdown-Dateien aus dem GitHub-Repository
     const response = await fetch(
-      "https://api.github.com/repos/lesbianbar-hub.github.io/contents/posts"
+      "https://github.com/lesbianbar-hub/lesbianbar-hub.github.io/posts"
     );
 
     if (!response.ok) {

@@ -97,6 +97,10 @@ nav a.active {
   font-weight: 700;
 }
 
+a:link {
+    color: green;
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto;
